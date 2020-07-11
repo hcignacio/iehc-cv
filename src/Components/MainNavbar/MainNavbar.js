@@ -16,12 +16,12 @@ export const MainNavbar = () => {
           </div> */}
           <Nav className="col-8 ml-5">
             <Link
-              to="/"
+              to="/iehc-cv"
               className="badge badge-pill badge-dark align-self-center navItem">
               Home
               </Link>
             <Link
-              to="/projects"
+              to="/iehc-cv/projects"
               className="badge badge-pill badge-dark align-self-center navItem ml-4">
               Projects
               </Link>

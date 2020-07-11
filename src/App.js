@@ -15,7 +15,7 @@ function App() {
       <Router>
         <MainNavbar />
         <Switch>
-          <Route exact path="/iehc-cv/" component={Home} />
+          <Route exact path="/iehc-cv" component={Home} />
           <Route path="/iehc-cv/projects" component={Projects} />
         </Switch>
       </Router>
