@@ -6,22 +6,15 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import { MainNavbar } from './Components/MainNavbar/MainNavbar'
 import Home from "./Screens/Home/Home";
 import Projects from './Screens/Projects/Projects';
 
 function App() {
   return (
     <div className="App">
-      <h1>HOLA</h1>
       <Router>
-        <ul>
-          <li>
-            <Link to="/">Home</Link>
-          </li>
-          <li>
-            <Link to="/projects">Projects</Link>
-          </li>
-        </ul>
+        <MainNavbar />
         <Switch>
           <Route exact path="/" component={Home} />
           <Route path="/projects" component={Projects} />

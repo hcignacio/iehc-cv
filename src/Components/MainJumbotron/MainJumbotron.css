@@ -1,0 +1,15 @@
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.sideTextContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  text-align: start;
+  font-size: 5rem;
+}
